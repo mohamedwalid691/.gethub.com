@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style> .con{
+                display: grid;
+              
+               
+                grid-template-columns: repeat(5,1fr );
+                grid-gap: 5px;
+                
+
+
+        }
+        #cv:first-child{
+       grid-column: 1 / span 3;
+
+
+        }
+
+        
+         #cv{
+                text-align: center;
+                background-color: aquamarine;
+                font-size: 20px;
+                border:  black solid .4px;
+                padding: 10px;
+
+        }</style>
+</head>
+<body>
+        <div class="con">
+                <div id="cv">item</div>
+                <div id="cv">item</div>
+                <div id="cv">item</div>
+                <div id="cv">item</div>
+                <div id="cv">item</div>
+
+                <div id="cv">item</div>
+
+
+        </div>
+        
+</body>
+</html>
